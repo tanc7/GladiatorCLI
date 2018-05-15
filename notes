@@ -1,0 +1,45 @@
+# ngrep -d Interface
+
+# dmesg -T
+
+# instant on to KALI via ssh and toolkits like xprobe2
+
+# Self-Reverse Shell to immediately proxy my KALI tools INTO the perspective of Ubuntu
+## this requires a threaded application, one thread in KALI one here in Ubuntu
+
+# Auto-reverse shell listeners (not instant-on though)
+
+# IDS live-feed
+		[[window3]]
+# ntopng live-feed
+# THREAT DISPLAY, count significant threats within 5-second timeframe, order/organize hosts by that
+		[[window4]]
+# I think I can make a SIEM JUST FOR the pentester. There is no SIEM in existence that does this. A ordinary SIEM is inpracticable because it is going to self-alert.
+
+# send me a email on what you think of THAT.
+
+# red teamers need something to warn them of CIRT, when to move. And the moment to move is not when you just got hit. IT's when you know that there is SOMETHING else around, from ARP caches
+
+# Red Teamers rely on ADVANCE WARNING to respond fast enough. If they are too slow. The engagement can turn against them pretty fast. Red Teamers actually spend more time "running" than the Blues.
+
+# Blue's actually carry a signature with them. Processes that are externally detectable. Or network traffic signatures like nmap.
+
+# Red's rely on mobility, like proxies planted on each network gateway. IF a blue jumps them with what I did, they need to get out now. And move somewhere else, or FORK. I was drafting a fork-into-a-daemon process, like splitting into two. That was my DaemonContext experiment.
+
+# So Blue only has a daemonized Red copy/clone to play with. NOT the real Red.
+
+# however UNIX daemon programming requires very in depth details on WHAT it should do. Be concise and clear, and DEFINE how far they can go. You can make a daemon invisible even to system level root users. I had a lot of mishaps messing with that. Crashed my system last year.
+
+# I will try to build a simple daemonization method. Once you split into a daemon copy and yourself, you become a new process. If you ended up as a daemon, well you actualyl lost control of the shell session. Because Daemons don't follow any more orders than what they were instructed to do.
+
+# so...
+
+
+# Daemon Copy of Me
+1. Does, what I did the last 5 commands
+2. Follows a hierarchy of commands (from most often used to least), to make me look real.
+3. The Daemon needs a perfect copy of environment variables. It too must have the same root level privilege, which is really dangerous. And you can even take their privileges even higher than that (so it wont get terminated by system processes).
+4. It should ahve a limited lifespan. It eats up resources. In some cases it cannot be perceived by system so they are unkillable.
+5. If you guys know a person with experience in writing Daemons, I would like to talk to them. A checklist of what I gotta do.
+
+# I hope all of this makes sense. I played with a lot of experiments in Daemons, and Python itself has 20+ reliable modules and frameworks to fork yourself into a Daemon, reliably!
