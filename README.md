@@ -1,5 +1,12 @@
 # Gladiator CLI - Experimental Capture-the-Flag Framework
 
+<code>
+<pre>
+Chang Tan
+Lister Unlimited Cybersecurity Solutions, LLC.
+changtan@listerunlimited.com
+</pre>
+</code>
 Disclaimer: Project opened on May 14th. Development and drafting/design just begun.
 
 Cost: Completely free
