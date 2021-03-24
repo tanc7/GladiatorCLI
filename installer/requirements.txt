@@ -94,7 +94,7 @@ PyYAML==3.12
 requests==2.9.1
 roguehostapd==1.1.2
 rpyc==3.4.4
-rsa==3.4.2
+rsa==4.1
 s3transfer==0.1.13
 scapy==2.4.0
 SecretStorage==2.3.1
