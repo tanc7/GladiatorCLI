@@ -90,7 +90,7 @@ PySocks==1.6.8
 python-dateutil==2.6.1
 pytz==2018.4
 pyuv==1.4.0
-PyYAML==3.12
+PyYAML==5.4
 requests==2.9.1
 roguehostapd==1.1.2
 rpyc==3.4.4
