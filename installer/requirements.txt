@@ -80,7 +80,7 @@ pyasn1==0.1.9
 pycrypto==2.6.1
 pycryptodome==3.6.1
 pycurl==7.43.0
-Pygments==2.2.0
+Pygments==2.7.4
 pygobject==3.20.0
 pylzma==0.4.9.post0
 pyOpenSSL==0.15.1
