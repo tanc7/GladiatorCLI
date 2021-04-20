@@ -3,7 +3,7 @@ ansible==2.5.0
 asgiref==2.3.0
 async-timeout==2.0.1
 attrs==18.1.0
-autobahn==18.5.1
+autobahn==20.12.3
 Automat==0.6.0
 backports-abc==0.5
 beautifulsoup4==4.4.1
