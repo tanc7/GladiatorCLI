@@ -42,7 +42,7 @@ html5lib==0.999
 http-parser==0.8.3
 hyperlink==18.0.0
 idna==2.6
-impacket==0.9.15
+impacket==0.9.23
 incremental==17.5.0
 ipaddr==2.1.11
 ipaddress==1.0.16
