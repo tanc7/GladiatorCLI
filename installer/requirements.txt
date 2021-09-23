@@ -1,5 +1,5 @@
 adium-theme-ubuntu==0.3.4
-ansible==2.5.0
+ansible==4.2.0
 asgiref==2.3.0
 async-timeout==2.0.1
 attrs==18.1.0
