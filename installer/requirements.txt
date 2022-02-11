@@ -105,7 +105,7 @@ suricatasc==0.9
 termcolor==1.1.0
 tinyec==0.3.1
 tornado==4.5.3
-Twisted==18.4.0
+Twisted==22.1.0
 txaio==2.10.0
 typing==3.6.4
 Unidecode==1.0.22
