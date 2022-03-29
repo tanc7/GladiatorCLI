@@ -63,7 +63,7 @@ ndg-httpsclient==0.4.0
 netaddr==0.7.19
 netifaces==0.10.6
 numpy==1.11.0
-paramiko==2.0.2
+paramiko==2.10.1
 parse==1.8.2
 path-and-address==2.0.1
 pathlib==1.0.1
