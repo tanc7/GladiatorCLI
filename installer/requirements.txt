@@ -38,7 +38,7 @@ future==0.16.0
 futures==3.2.0
 grip==4.5.2
 gyp==0.1
-html5lib==0.999
+html5lib==0.99999999
 http-parser==0.8.3
 hyperlink==18.0.0
 idna==2.6
